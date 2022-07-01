@@ -7,7 +7,7 @@ it by removing heavy `fastq` & `bam` files, and the Nextflow `work` directory.
 Used to process all FAANG ChIP-seq files for the [VizFaDa](https://viz.faang.org/) project.
 
 ## Usage
-At the moment, the only pipeline runs on the [Genotoul](http://bioinfo.genotoul.fr/) compute server due to
+At the moment, the pipeline only runs on the [Genotoul](http://bioinfo.genotoul.fr/) compute server due to
 the hard-coded launch of the nfcore/chipseq command 
 [here](https://github.com/GenEpi-GenPhySE/vizfada_chipseq/blob/master/modules/chipseq_genotoul.nf#L17).
 
